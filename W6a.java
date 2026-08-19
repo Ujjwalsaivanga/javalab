@@ -1,4 +1,7 @@
 // Animal.java
+
+// Main.java
+public class W6a {
 interface Animal {
     void sound();
 }
@@ -11,8 +14,6 @@ class Dog implements Animal {
     }
 }
 
-// Main.java
-public class Main {
     public static void main(String[] args) {
         Dog dog = new Dog();
         dog.sound();
